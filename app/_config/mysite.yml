@@ -9,6 +9,9 @@ SilverStripe\Admin\LeftAndMain:
 Silverstripe\SiteConfig\SiteConfig:
   extensions:
     - SiteConfigExtension
+SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
+  editor_css:
+    - themes/starter/dist/css/editor.css
 # UTF8MB4 has limited support in older MySQL versions.
 # Remove this configuration if you experience issues.
 ---
