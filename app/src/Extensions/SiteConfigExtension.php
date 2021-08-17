@@ -37,6 +37,13 @@ namespace {
             $fields->addFieldToTab('Root.Sections', $editorWidth);
 
             /*
+             *  Section Padding
+             */
+            $configPadding = GridFieldConfig_RecordEditor::create('999');
+            $editorPadding = GridField::create('SectionPadding', 'Padding', Paddings::get(), $configPadding);
+            $fields->addFieldToTab('Root.Sections', $editorPadding);
+
+            /*
              *  Pre-header Menu
              */
             $configHeaderMenu = GridFieldConfig_RecordEditor::create('999');
