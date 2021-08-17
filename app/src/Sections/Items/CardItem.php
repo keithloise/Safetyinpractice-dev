@@ -18,6 +18,7 @@ namespace {
 
         private static $db = [
             'Name'       => 'Varchar',
+            'CardIcon'   => 'Varchar',
             'Content'    => 'HTMLText',
             'CardWidth'  => 'Varchar',
             'Archived'   => 'Boolean',
@@ -46,8 +47,10 @@ namespace {
             $fields->removeByName('ParentID');
             $fields->addFieldToTab('Root.Main', ReadonlyField::create('ParentRO', 'Parent', $this->Parent()->Title));
             $fields->addFieldToTab('Root.Main', TextField::create('Name'));
+            $fields->addFieldToTab('Root.Main', TextField::create('CardIcon')
+                ->setDescription('E.g fad fa-pills <br>Please refer&nbsp;<a href="https://fontawesome.com/v5.15/icons?d=gallery&p=2">FontAwesome</a>&nbsp;for more icon options.'));
             $fields->addFieldToTab('Root.Main', UploadField::create('Image')
-                ->setFolderName('Sections/Section_Card/Images'));
+                ->setFolderName('Sections/Card'));
             $fields->addFieldToTab('Root.Main', HTMLEditorField::create('Content'));
             $fields->addFieldToTab('Root.Main', DropdownField::create('CardWidth', 'Card width',
                 SectionWidth::get()->filter('Archived', false)->map('Class', 'Name')));
