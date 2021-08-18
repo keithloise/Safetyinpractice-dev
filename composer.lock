@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd48e33a92b0eb3ff8d4c8ecffa33d27",
+    "content-hash": "1c4886e8bb67189ea3c794fe6b92f21b",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/i3waitematadhb/cwp-starter-theme.git",
-                "reference": "8adebb3775346420bbe90830678699671e78a48f"
+                "reference": "e9d76b8b27ed364bc9e44dcd5be361d86faafc83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/i3waitematadhb/cwp-starter-theme/zipball/8adebb3775346420bbe90830678699671e78a48f",
-                "reference": "8adebb3775346420bbe90830678699671e78a48f",
+                "url": "https://api.github.com/repos/i3waitematadhb/cwp-starter-theme/zipball/e9d76b8b27ed364bc9e44dcd5be361d86faafc83",
+                "reference": "e9d76b8b27ed364bc9e44dcd5be361d86faafc83",
                 "shasum": ""
             },
             "require": {
@@ -657,7 +657,7 @@
             "support": {
                 "source": "https://github.com/i3waitematadhb/cwp-starter-theme/tree/safetyinpractice"
             },
-            "time": "2021-03-01T03:45:11+00:00"
+            "time": "2021-08-25T09:23:00+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1079,16 +1079,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f3ad69181b8afed2c9edf7be5a2918144ff4ea32"
+                "reference": "18634df356bfd4119fe3d6156bdb990c414c14ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3ad69181b8afed2c9edf7be5a2918144ff4ea32",
-                "reference": "f3ad69181b8afed2c9edf7be5a2918144ff4ea32",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/18634df356bfd4119fe3d6156bdb990c414c14ea",
+                "reference": "18634df356bfd4119fe3d6156bdb990c414c14ea",
                 "shasum": ""
             },
             "require": {
@@ -1161,7 +1161,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/1.1.4"
+                "source": "https://github.com/thephpleague/flysystem/tree/1.1.5"
             },
             "funding": [
                 {
@@ -1169,7 +1169,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-06-23T21:56:05+00:00"
+            "time": "2021-08-17T13:49:42+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -3928,16 +3928,16 @@
         },
         {
             "name": "symbiote/silverstripe-multivaluefield",
-            "version": "5.0.2",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symbiote/silverstripe-multivaluefield.git",
-                "reference": "e405e27513d2b25d9edc5e949a243293da67245d"
+                "reference": "7f48451ec8873c79985f6452d30811d5ebb7e05d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-multivaluefield/zipball/e405e27513d2b25d9edc5e949a243293da67245d",
-                "reference": "e405e27513d2b25d9edc5e949a243293da67245d",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-multivaluefield/zipball/7f48451ec8873c79985f6452d30811d5ebb7e05d",
+                "reference": "7f48451ec8873c79985f6452d30811d5ebb7e05d",
                 "shasum": ""
             },
             "require": {
@@ -3947,7 +3947,8 @@
                 "silverstripe/multivaluefield": "self.version"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7"
+                "sminnee/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3"
             },
             "type": "silverstripe-vendormodule",
             "extra": {
@@ -3980,9 +3981,9 @@
             ],
             "support": {
                 "issues": "https://github.com/symbiote/silverstripe-multivaluefield/issues",
-                "source": "https://github.com/symbiote/silverstripe-multivaluefield/tree/5"
+                "source": "https://github.com/symbiote/silverstripe-multivaluefield/tree/5.1.0"
             },
-            "time": "2019-12-04T00:14:28+00:00"
+            "time": "2020-12-20T22:10:24+00:00"
         },
         {
             "name": "symfony/cache",
@@ -6317,5 +6318,5 @@
         "php": "^7.1 || ^8"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

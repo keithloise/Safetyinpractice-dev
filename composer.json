@@ -31,8 +31,10 @@
             "app/_config.php",
             "app/_config/mimevalidator.yml",
             "app/_config/mysite.yml",
-            "app/src/Pages/Page.php",
-            "app/src/PageControllers/PageController.php"
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "app/src/PageControllers/PageController.php",
+            "app/src/Pages/Page.php"
         ],
         "public-files-installed": [
             ".htaccess",
@@ -40,7 +42,7 @@
             "web.config"
         ],
         "expose": [
-          "app/css"
+            "app/css"
         ]
     },
     "config": {

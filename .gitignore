@@ -2,6 +2,7 @@
 /.env
 /vendor/
 /themes/simple/
+/themes/starter/
 /_resources/
 /public/_resources/
 /.idea/
